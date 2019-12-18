@@ -12,7 +12,7 @@ def main():
     print(min_price, max_price)
 
     # it is equivalent to
-    min_val = stocks[min(stocks, key=lambda k: stocks[k])]
+    _ = stocks[min(stocks, key=lambda k: stocks[k])]
 
 
 if __name__ == "__main__":
