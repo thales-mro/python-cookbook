@@ -16,7 +16,7 @@ def main():
     print(datepat.sub(replace_callback, text))
 
     print("If it is desired to know the number of replacements:")
-    nt, n = datepat.subn(r'\3-\2-\1', text)
+    _, n = datepat.subn(r'\3-\2-\1', text)
     print(n)
 
 if __name__ == "__main__":
