@@ -16,5 +16,6 @@ def main():
     print([addr for addr in addresses if fnmatchcase(addr, '* ST')])
     print([addr for addr in addresses if fnmatchcase(addr, '54[0-9][0-9] *CLARK*')])
 
+
 if __name__ == "__main__":
     main()
